@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="Calculator.css">
+</head>
+
+<body>
+    <table border="1">
+        <tr>
+            <td colspan="4"><input type="number" id="data" value="0"/></td>
+        </tr>
+        <tr>
+            <td><button value="1" onclick="display(this)">1</button></td>
+            <td><button value="2" onclick="display(this)">2</button></td>
+            <td><button value="3" onclick="display(this)">3</button></td>
+            <td><button value="/" onclick="calc(this)">/</button></td>
+        </tr>
+        <tr>
+            <td><button value="4" onclick="display(this)">4</button></td>
+            <td><button value="5" onclick="display(this)">5</button></td>
+            <td><button value="6" onclick="display(this)">6</button></td>
+            <td><button value="*" onclick="calc(this)">*</button></td>
+        </tr>
+        <tr>
+            <td><button value="7" onclick="display(this)">7</button></td>
+            <td><button value="8" onclick="display(this)">8</button></td>
+            <td><button value="9" onclick="display(this)">9</button></td>
+            <td><button value="-" onclick="calc(this)">-</button></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><button value="0" onclick="display(this)">0</button></td>
+            <td><button value="=" onclick="eva()">=</button></td>
+            <td><button value="+" onclick="calc(this)">+</button></td>
+        </tr>
+    </table>
+</body>
+<script src="Calculator.js"></script>
+</html>
