@@ -23,7 +23,7 @@ function eva() {
     let ans = eval(num1 + op + num2)
     console.log(ans);
     document.getElementById('data').value = ans;
-    op=""
-    num1=ans;
-    num2=""
+    op = ""
+    num1 = ans;
+    num2 = ""
 }
